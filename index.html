@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>LOGIN PAGE</title>
+	<link rel="stylesheet" type="text/css" href="index.css">
+	  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"
+  />
+  <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+ 
+
+</head>
+<body>
+	
+	<div class="form-box">
+		<h1 class="animate__animated animate__bounce"><strong>LOGIN HERE</strong></h1>
+		<div class="input-box">
+			<i class="fa fa-envelope-o"></i>
+			<input type="email" placeholder="Email Id" required>
+		</div>	
+		<div class="input-box">
+			<i class="fa fa-key"></i>
+			<input type="password" min="5" placeholder="Password" id="myInput" required>
+			<span class="eye" onclick="myFunction()">
+			   <i id="hide1" class="fa fa-eye"></i>
+			   <i id="hide2" class="fa fa-eye-slash"></i>
+		    </span>
+		</div>
+	    <a href="https://support.google.com/accounts/answer/41078?co=GENIE.Platform%3DDesktop&hl=en" id="forgot" style="text-align: right;">Forgot password</a>
+
+		<button type="button" class="login-btn" onclick="alertbox()">LOGIN</button>	
+	</div>
+
+
+	<script type="text/javascript" src="index.js"></script>	
+
+</body>
+</html>
