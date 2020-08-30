@@ -9,7 +9,7 @@ body{
 	font-family: sans-serif;
 }
 .animate__animated.animate__bounce {
-  --animate-duration:3s;
+  --animate-duration:4s;
 }
 .form-box{
 	width:500px;
